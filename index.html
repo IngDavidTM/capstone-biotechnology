@@ -7,7 +7,6 @@
     <script src="https://kit.fontawesome.com/a12691952c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-    <script src="/index.js"></script>
     <title>Home page</title>
 </head>
 <body>
@@ -24,7 +23,7 @@
         <nav>
             <div class="nav-top-mobile">
                 <button id="wrapper"><i class="fa-sharp fa-solid fa-bars"></i></button>
-                <img src="/images/bioLogo.png" alt="">
+                <img class="img-home" src="/images/bioLogo.png" alt="">
             </div>
             <div class="nav-wrapper" id="nav-wrapper">
                 <a class="close-button" id="close-wrap"><i class="fa-solid fa-xmark"></i></a>
@@ -39,10 +38,9 @@
                 </div>
             </div>
             <div class="nav-wrapper-desktop">
-                <img src="/images/bioLogo.png" alt="">
+                <img class="img-home" src="/images/bioLogo.png" alt="">
                 <div>
-                    <a href="">Home</a>
-                    <a href="">About</a>
+                    <a href="/about.html">About</a>
                     <a href="">Program</a>
                     <a href="">Join</a>
                     <a href="">Sponsor</a>
@@ -65,7 +63,7 @@
     </section>
     <section class="main-program">
         <h2>Main Program</h2>
-        <div>
+        <div class="main-schedule">
             <article>
                 <img src="/images/lecture1.png" alt="">
                 <h4>Lecture</h4>
@@ -96,7 +94,7 @@
     </section>
     <section class="speakers">
         <h2>Featured Speakers</h2>
-        <div>
+        <div class="speakers-div">
             <div class="speaker-information">
                 <img src="/images/speaker1.png" alt="">
                 <div>
@@ -159,7 +157,7 @@
         </ul>
         <footer>
             <div class="image-footer">
-                <img src="/images/bioLogo.png" alt="">
+                <img class="img-home" src="/images/bioLogo.png" alt="">
             </div>
             <div class="footer-information">
                 <h3>2022 Web Development Course Ecuador. Some Rights Reserved</h3>
@@ -167,5 +165,6 @@
             </div>
         </footer>
     </section>
+    <script src="index.js"></script>
 </body>
 </html>

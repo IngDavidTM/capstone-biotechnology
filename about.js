@@ -11,23 +11,9 @@ window.addEventListener('DOMContentLoaded', () => {
   }
   openWrap.addEventListener('click', wrapFunction);
   closeWrap.addEventListener('click', wrapFunction);
-  const partner = document.getElementById('partner');
-  const moreMobile = document.getElementById('more-mobile');
-  function moreFunction() {
-    if (partner.style.display === 'flex') {
-      partner.style.display = 'none';
-      moreMobile.innerHTML = 'MORE <i class="fa-solid fa-chevron-down">';
-    } else {
-      partner.style.display = 'flex';
-      moreMobile.innerHTML = 'LESS <i class="fa-solid fa-chevron-up">';
-    }
-  }
-  moreMobile.addEventListener('click', moreFunction);
-  const imgHome = document.querySelectorAll('.img-home');
   const imgHomeSetup = document.querySelectorAll('.img-home-setup');
   function homeFunction() {
     window.location.href = 'index.html';
   }
-  imgHome.forEach((img) => { img.addEventListener('click', homeFunction); });
   imgHomeSetup.forEach((img) => { img.addEventListener('click', homeFunction); });
 });

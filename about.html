@@ -7,20 +7,39 @@
     <script src="https://kit.fontawesome.com/a12691952c.js" crossorigin="anonymous"></script>
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="style.css">
-    <script src="/index.js"></script>
     <title>About</title>
 </head>
 <body>
     <section>
+        <nav class="nav-top-desktop">
+            <ul>
+                <li><i class="fa-brands fa-facebook-f"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li>English</li>
+                <li>My Page</li>
+                <li>Logout</li>
+            </ul>
+        </nav>
         <div class="nav-top-mobile">
             <button id="wrapper"><i class="fa-sharp fa-solid fa-bars"></i></button>
-            <img src="/images/bioLogo.png" alt="">
+            <img class="img-home-setup" src="/images/bioLogo.png" alt="">
         </div>
         <div class="nav-wrapper" id="nav-wrapper">
             <a class="close-button" id="close-wrap"><i class="fa-solid fa-xmark"></i></a>
             <div>
                 <a href="/index.html">Home</a>
                 <a href="">About</a>
+                <a href="">Program</a>
+                <a href="">Join</a>
+                <a href="">Sponsor</a>
+                <a href="">News</a>
+                <a href="">CC Campaign</a>
+            </div>
+        </div>
+        <div class="nav-wrapper-desktop">
+            <img class="img-home-setup" src="/images/bioLogo.png" alt="">
+            <div>
+                <a href="/index.html">Home</a>
                 <a href="">Program</a>
                 <a href="">Join</a>
                 <a href="">Sponsor</a>
@@ -43,23 +62,25 @@
     <section class="creative-commons">
         <h2>Creative Commons Global summit 2015 Logo</h2>
         <p>The logo of CC Global Summit 2015 was decided through the logo competition from 8.June to 7.July</p>
-        <img src="/images/bioLogo.png" alt="">
+        <img class="img-home-setup" src="/images/bioLogo.png" alt="">
     </section>
     <section class="see-past">
         <h2>See the past CC global Summits</h2>
         <p class="text-past">Take a look at the last two CC Global Summits which took place in Buenos Aires in Warsaw</p>
-        <article class="first-meet">
-            <div class="last-meetings">
-                <h3>2013</h3>
-                <p>CC Global Summit 2013 in Buenos Aires</p>
-            </div>
-        </article>
-        <article class="second-meet">
-            <div class="last-meetings">
-                <h3>2011</h3>
-                <p>CC Global Summit 2011 in Warsaw</p>
-            </div>
-        </article>
+        <div class="meet-container">
+            <article class="first-meet">
+                <div class="last-meetings">
+                    <h3>2013</h3>
+                    <p>CC Global Summit 2013 in Buenos Aires</p>
+                </div>
+            </article>
+            <article class="second-meet">
+                <div class="last-meetings">
+                    <h3>2011</h3>
+                    <p>CC Global Summit 2011 in Warsaw</p>
+                </div>
+            </article>
+        </div>
     </section>
     <section class="partner-setup">
         <h2>Partner</h2>
@@ -72,7 +93,7 @@
         </ul>
         <footer>
             <div class="image-footer">
-                <img src="/images/bioLogo.png" alt="">
+                <img class="img-home-setup" src="/images/bioLogo.png" alt="">
             </div>
             <div class="footer-information">
                 <h3>2022 Web Development Course Ecuador. Some Rights Reserved</h3>
@@ -80,5 +101,6 @@
             </div>
         </footer>
     </section>
+    <script src="about.js"></script>
 </body>
 </html>

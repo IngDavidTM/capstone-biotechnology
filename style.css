@@ -145,7 +145,7 @@ li {
   padding-bottom: 70px;
 }
 
-.main-program div {
+.main-schedule {
   margin: 30px 0;
   width: 100%;
 }
@@ -411,6 +411,12 @@ footer {
   padding-bottom: 10px;
 }
 
+.meet-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
 .first-meet {
   background-image: url(images/firstMeet.png);
   background-repeat: no-repeat;
@@ -432,4 +438,168 @@ footer {
   background-color: #272a31;
   color: #fff;
   padding-top: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+	.nav-top-desktop {
+		display: flex;
+		justify-content: flex-end;
+		background-color: #272a31;
+		color: #fff;
+		min-height: 30px;
+		align-items: center;
+	}
+
+	.nav-top-desktop ul {
+		display: flex;
+		padding-right: 60px;
+		gap: 20px;
+	}
+
+	.nav-top-desktop li {
+		cursor: pointer;
+	}
+
+	.nav-top-mobile {
+		display: none;
+	}
+
+	.nav-wrapper-desktop {
+		display: flex;
+		align-items: center;
+	}
+
+	.nav-wrapper-desktop img {
+		width: 51px;
+		padding: 0 20%;
+		cursor: pointer;
+	}
+
+	.nav-wrapper-desktop div {
+		width: 60%;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.nav-wrapper-desktop a {
+		color: #333;
+		text-decoration: none;
+	}
+
+	.presentation-container h1 {
+		font-size: 70px;
+		font-weight: bolder;
+		background-clip: unset;
+		-webkit-background-clip: text;
+		color: transparent;
+		background-image: url(images/backgroundText.png);
+		padding-left: 10%;
+		max-width: 740px;
+	}
+
+	.presentation-container h3 {
+		padding-top: 130px;
+		padding-left: 10%;
+	}
+
+	.main-description {
+		font-size: 13px;
+		color: #333;
+		background-color: #f7f7f8;
+		padding-left: 10px;
+		margin-left: 10%;
+		margin-top: 40px;
+		margin-bottom: 40px;
+		max-width: 650px;
+	}
+
+	.presentation-container div {
+		padding-left: 10%;
+		padding-bottom: 130px;
+	}
+
+	.main-program article {
+		display: flex;
+		flex-direction: column;
+		padding: 10px;
+		width: 20%;
+		max-width: 200px;
+		margin: 10px;
+		background-color: #97979738;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.main-schedule {
+		margin: 30px 0;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+  .speakers-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+  }
+
+  .speaker-information {
+    width: 47%;
+  }
+  
+  .partner {
+    display: flex;
+  }
+
+  .speakers button {
+    display: none;
+  }
+
+  .presentation-container-about h3 {
+    display: none;
+  }
+
+  .presentation-container-about h1 {
+    font-size: 70px;
+    padding-top: 130px;
+  }
+
+  .main-description-about {
+    max-width: 560px;
+    text-align: center;
+    margin: 50px 0;
+  }
+
+  .presentation-container-footer {
+    margin-bottom: 130px;
+  }
+
+  .meet-container {
+    flex-direction: row;
+    max-width: 800px;
+    gap: 20px;
+    padding-bottom: 130px;
+  }
+
+  .first-meet {
+    min-width: 50%;
+  }
+
+  .second-meet {
+    min-width: 50%;
+  }
+
+  .partner-setup h2 {
+    display: none;
+  }
+
+  .partner-setup .sponsors {
+    display: none;
+  }
+
+  .partner-setup footer {
+    color: #fff;
+    background-color: transparent;
+  }
 }
