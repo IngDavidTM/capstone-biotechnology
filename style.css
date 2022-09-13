@@ -210,19 +210,20 @@ li {
 }
 
 .speakers button {
-  display: none;
+  display: block;
   background-color: transparent;
   border: 1px solid #d3d3d3;
   padding: 20px;
   width: 90%;
+  cursor: pointer;
 }
 
 .partner {
-  background-color: #272a31;
-  color: #fff;
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
+  background-color: #272a31;
+  color: #fff;
   padding-top: 30px;
 }
 
@@ -285,4 +286,151 @@ footer {
 .footer-information {
   font-size: 12px;
   padding-right: 30px;
+}
+
+.presentation-container-about {
+  background-image: url(images/backgroundHeaderAbout.png);
+  background-repeat: no-repeat;
+  background-color: #f7f7f8;
+  display: flex;
+  flex-direction: column;
+  max-height: max-content;
+  align-items: center;
+}
+
+.presentation-container-about h3 {
+  font-size: 35px;
+  font-weight: lighter;
+  text-align: center;
+  color: #ec5242;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.presentation-container-about h1 {
+  font-size: 9vw;
+  text-align: center;
+  font-weight: bolder;
+  color: #ec5242;
+  max-width: 830px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.main-description-about {
+  font-size: 13px;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #d3d3d3;
+}
+
+.presentation-container-footer {
+  color: #272a31;
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  align-items: center;
+}
+
+.presentation-container-footer >* {
+  text-align: center;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+.presentation-container-footer h4 {
+  text-decoration: underline;
+  padding-bottom: 40px;
+}
+
+.creative-commons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #dddddd;
+  padding: 30px;
+}
+
+.creative-commons h2 {
+  max-width: 85%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.creative-commons p {
+  max-width: 95%;
+  text-align: center;
+  padding-bottom: 40px;
+  color:  #333;
+}
+
+.creative-commons img {
+  border: 1px solid #dddddd;
+  padding: 0px 100px;
+  max-width: 40%;
+}
+
+.see-past {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0px;
+}
+
+.see-past  h2{
+  max-width: 85%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.text-past {
+  max-width: 95%;
+  text-align: center;
+  padding-bottom: 40px;
+  color:  #333;
+}
+
+.last-meetings {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ec5342a2;
+}
+
+.last-meetings >* {
+  color: #fff;
+}
+
+.last-meetings h3 {
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+.first-meet {
+  background-image: url(images/firstMeet.png);
+  background-repeat: no-repeat;
+  min-width: 90%;
+  margin-bottom: 20px;
+}
+
+.second-meet {
+  background-image: url(images/secondMeet.jpg);
+  background-repeat: no-repeat;
+  min-width: 90%;
+  margin-bottom: 20px;
+}
+
+.partner-setup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #272a31;
+  color: #fff;
+  padding-top: 30px;
 }
