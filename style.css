@@ -231,6 +231,10 @@ li {
   cursor: pointer;
 }
 
+.button-speaker-action {
+  display: none;
+}
+
 .partner {
   display: none;
   flex-direction: column;
@@ -554,6 +558,10 @@ footer {
 
   .speakers button {
     display: none;
+  }
+
+  .button-speaker-action {
+    display: flex;
   }
 
   .presentation-container-about h3 {
