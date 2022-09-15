@@ -91,7 +91,12 @@ li {
   font-size: 30px;
   left: 3%;
   top: 3%;
+  color: #272a31;
   cursor: pointer;
+}
+
+.nav-top-mobile button:hover {
+  color: #ec5242;
 }
 
 .presentation-container {
@@ -173,7 +178,7 @@ li {
 
 .main-program article:hover {
   transform: scale(1.05);
-  border: 1px solid #ec5242;
+  box-shadow: 0 0 2px #ec5242;
   transition-duration: 0.5s;
 }
 
@@ -502,6 +507,11 @@ footer {
 
   .nav-top-desktop li {
     cursor: pointer;
+  }
+
+  .nav-top-desktop li:hover {
+    color: #ec5242;
+    transition-duration: 0.4s;
   }
 
   .nav-top-mobile {
