@@ -95,6 +95,24 @@ li {
   cursor: pointer;
 }
 
+.speakers button {
+  display: block;
+  background-color: transparent;
+  border: 1px solid #d3d3d3;
+  padding: 20px;
+  width: 90%;
+  cursor: pointer;
+}
+
+.main-program button {
+  background-color: #ec5242;
+  font-size: 16px;
+  padding: 30px 40px;
+  border-radius: 2px;
+  color: #fff;
+  border: none;
+}
+
 .nav-top-mobile button:hover {
   color: #ec5242;
 }
@@ -196,15 +214,6 @@ li {
   font-size: 12px;
 }
 
-.main-program button {
-  background-color: #ec5242;
-  font-size: 16px;
-  padding: 30px 40px;
-  border-radius: 2px;
-  color: #fff;
-  border: none;
-}
-
 .main-program button:hover {
   transform: scale(1.05);
   transition-duration: 0.5s;
@@ -247,15 +256,6 @@ li {
   flex-direction: column;
   justify-content: space-around;
   padding-left: 15px;
-}
-
-.speakers button {
-  display: block;
-  background-color: transparent;
-  border: 1px solid #d3d3d3;
-  padding: 20px;
-  width: 90%;
-  cursor: pointer;
 }
 
 .speakers button:hover {
