@@ -571,6 +571,15 @@ footer {
     max-width: 650px;
   }
 
+  .main-program button {
+    background: none;
+    text-decoration: underline;
+  }
+
+  .main-program button:hover {
+    color: #ec5242;
+  }
+
   .presentation-container div {
     padding-left: 10%;
     padding-bottom: 130px;
