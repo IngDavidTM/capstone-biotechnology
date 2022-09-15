@@ -2,6 +2,11 @@
   display: none;
 }
 
+.line {
+  color: #ec5242;
+  font-size: 20px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +15,7 @@
 
 .sponsors > * {
   padding: 10px;
+  cursor: pointer;
 }
 
 .presentation-container-footer > * {
@@ -50,6 +56,11 @@
   color: #272a31;
   font-size: 40px;
   margin: 30px;
+}
+
+.nav-wrapper a:hover {
+  color: #ec5242;
+  transition-duration: 0.5s;
 }
 
 li {
@@ -160,6 +171,12 @@ li {
   justify-content: space-between;
 }
 
+.main-program article:hover {
+  transform: scale(1.05);
+  border: 1px solid #ec5242;
+  transition-duration: 0.5s;
+}
+
 .main-program article > * {
   margin: 10px;
 }
@@ -181,6 +198,11 @@ li {
   border-radius: 2px;
   color: #fff;
   border: none;
+}
+
+.main-program button:hover {
+  transform: scale(1.05);
+  transition-duration: 0.5s;
 }
 
 .speakers {
@@ -231,6 +253,13 @@ li {
   cursor: pointer;
 }
 
+.speakers button:hover {
+  border: 1px solid #ec5242;
+  transform: scale(1.05);
+  color: #ec5242;
+  transition-duration: 0.5s;
+}
+
 .button-speaker-action {
   display: none;
 }
@@ -250,6 +279,12 @@ li {
   flex-wrap: wrap;
   align-items: center;
   padding: 20px;
+}
+
+.sponsors li:hover {
+  color: #ec5242;
+  transform: scale(1.03);
+  transition-duration: 0.5s;
 }
 
 .mozilla {
@@ -421,6 +456,11 @@ footer {
   width: 90%;
 }
 
+.meet-container article:hover {
+  transform: scale(1.05);
+  transition-duration: 0.5s;
+}
+
 .first-meet {
   background-image: url(images/firstMeet.png);
   background-repeat: no-repeat;
@@ -488,6 +528,10 @@ footer {
   .nav-wrapper-desktop a {
     color: #333;
     text-decoration: none;
+  }
+
+  .nav-wrapper-desktop a:hover {
+    text-decoration: underline;
   }
 
   .presentation-container h1 {

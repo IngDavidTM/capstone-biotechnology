@@ -61,6 +61,11 @@ window.addEventListener('DOMContentLoaded', () => {
     h2.innerHTML = 'Featured Speakers';
     section.appendChild(h2);
 
+    const line = document.createElement('h6');
+    line.innerHTML = '────';
+    line.className = 'line';
+    section.appendChild(line);
+
     const div = document.createElement('div');
     div.className = 'speakers-div';
     section.appendChild(div);
