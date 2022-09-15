@@ -22,6 +22,10 @@
 - `Stylelint`
 - `ESlint`
 - `Lighthouse`
+### Setup
+```
+$git clone git@github.com:IngDavidTM/capstone-biotechnology.git
+```
 
 ### Live GitHub Page
 - https://ingdavidtm.github.io/capstone-biotechnology/
