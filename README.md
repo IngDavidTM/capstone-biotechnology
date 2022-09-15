@@ -2,7 +2,7 @@
 
 # Biotechnology Congress Page
 
-> I build a webpage for a biotechnology congress, using data from some journals and a design of [Cindy Shin](https://www.behance.net/adagio07).
+> I built a webpage for a biotechnology congress, using data from some journals and a design of [Cindy Shin](https://www.behance.net/adagio07).
 
 ## Built With
 
