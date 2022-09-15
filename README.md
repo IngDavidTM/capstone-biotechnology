@@ -57,6 +57,7 @@ Give a ⭐️ if you like this project!
 - Nature
 - Cell Press
 - JABB
+- Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
 
 ## 📝 License
 
