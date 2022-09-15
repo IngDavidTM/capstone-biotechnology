@@ -576,6 +576,10 @@ footer {
     text-decoration: underline;
   }
 
+  .speakers button {
+    display: none;
+  }
+
   .main-program button:hover {
     color: #ec5242;
   }
@@ -617,10 +621,6 @@ footer {
 
   .partner {
     display: flex;
-  }
-
-  .speakers button {
-    display: none;
   }
 
   .button-speaker-action {
